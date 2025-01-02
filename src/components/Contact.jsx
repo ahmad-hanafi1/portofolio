@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -57,42 +57,6 @@ const Contact = () => {
       );
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setLoading(true);
-  //   emailjs
-  //     .send(
-  //       "service_42dwa4h",
-  //       "template_9moa4bf",
-  //       {
-  //         from_name: form.name,
-  //         to_name: "Ahmad Hanafi",
-  //         from_email: form.email,
-  //         to_email: "ahmadhanafi235@gmail.com",
-  //         message: form.message,
-  //       },
-  //       "AO_7OgcSvvQrUIkRv"
-  //     )
-  //     .then(
-  //       () => {
-  //         setLoading(false);
-  //         alert("Thank you! I will get back to you as soon as possible. ");
-  //         setForm({
-  //           name: "",
-  //           email: "",
-  //           message: "",
-  //         });
-  //       },
-  //       (error) => {
-  //         setLoading(false);
-  //         console.log(error);
-  //         alert("Something went wrong.");
-  //       }
-  //     );
-  // };
-  // template_9moa4bf
-  // service_84k7ksx
-  // AO_7OgcSvvQrUIkRv
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div

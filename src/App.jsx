@@ -12,6 +12,9 @@ import {
 } from "./components";
 
 const App = () => {
+  if (typeof browser === "undefined") {
+    var browser = chrome;
+  }
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">

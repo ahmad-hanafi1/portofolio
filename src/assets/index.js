@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import punicaapp from "./company/punica_app.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cSharp from "./tech/csharp.png";
+import python from "./tech/python.png";
 
 export {
   logo,
@@ -38,6 +41,8 @@ export {
   web,
   github,
   menu,
+  cSharp,
+  python,
   close,
   css,
   docker,
@@ -55,6 +60,7 @@ export {
   meta,
   shopify,
   starbucks,
+  punicaapp,
   tesla,
   carrent,
   jobit,
