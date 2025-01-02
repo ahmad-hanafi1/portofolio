@@ -22,10 +22,10 @@ const Computers = ({ isMobile }) => {
         // eslint-disable-next-line react/no-unknown-property
         object={computer.scene}
         // eslint-disable-next-line react/no-unknown-property
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -2, -1] : [0, -3.25, -1.5]}
         // eslint-disable-next-line react/no-unknown-property
         rotation={[-0.01, -0.2, -0.1]}
-        scale={isMobile ? 0.7 : 0.75}
+        scale={isMobile ? 0.35 : 0.65}
       />
     </mesh>
   );
