@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import punicaapp from "./company/punica_app.png";
 
 import carrent from "./carrent.png";
+import punica from "./punica.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import cSharp from "./tech/csharp.png";
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  punica,
 };
