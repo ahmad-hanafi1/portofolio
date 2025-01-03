@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import cSharp from "./tech/csharp.png";
 import python from "./tech/python.png";
+import bookStore from "./bookstore.jpg";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   jobit,
   tripguide,
   punica,
+  bookStore,
 };

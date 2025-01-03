@@ -27,6 +27,7 @@ import {
   python,
   cSharp,
   punica,
+  bookStore,
 } from "../assets";
 
 export const navLinks = [
@@ -195,9 +196,9 @@ const projects = [
     source_code_link: "https://punica.app/",
   },
   {
-    name: "Job IT",
+    name: "Ai Aided Bookstore",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An e-commerce platform that allows users to buy books with a chatbot powered by ChatGPT and VoiceFlow. The chatbot helps users find the books they are looking for.",
     tags: [
       {
         name: "react",
@@ -208,34 +209,30 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "mern_stack",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bookStore,
+    source_code_link: "https://github.com/ahmad-hanafi1/GradProject-backend",
   },
+  // {
+  //   name: "Taksi App",
+  //   description:
+  //     "Two fully functional apps for aiding the connection between taxi drivers and clients. Both of which will be available in 2025 and will operate in the region of Northern Cyprus.",
+  //   tags: [
+  //     {
+  //       name: "react_native",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "material_3",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
