@@ -2,11 +2,8 @@ import {
   mobile,
   backend,
   creator,
-  web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
@@ -15,18 +12,12 @@ import {
   git,
   figma,
   docker,
-  // meta,
-  // starbucks,
   punicaapp,
-  // tesla,
-  // shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   python,
   cSharp,
   punica,
+  techleara,
   bookStore,
 } from "../assets";
 
@@ -47,11 +38,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -129,19 +116,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Frontend/Flutter Developer",
+    company_name: "Techleara",
+    icon: techleara,
+    iconBg: "#ddd",
+    date: "Jan 2025 - Current",
+    points: [
+      "Worked remotely as a Flutter Developer on multiple mobile applications, including Reone, a real estate app for listing and renting properties in the UAE.",
+      "Built and maintained key features in HR Bridge, an HR app supporting check-in/out, time-off requests, and other essential employee functions.",
+      "Collaborated with cross-functional teams to integrate backend systems featuring Odoo, ensuring robust and scalable app performance.",
+      "Followed best practices in version control, state management, and clean architecture to ensure high code quality and maintainability.",
+      "Tech Stack: Git, Flutter, Dart, Riverpod, Odoo",
+    ],
+  },
+
+  {
+    title: "Frontend Developer",
     company_name: "PUNICA App",
     icon: punicaapp,
     iconBg: "#383E56",
-    date: "May 2022 - June 2024",
+    date: "May 2022 - Sep 2024",
     points: [
-      "Developed a dynamic, user-friendly dashboard using ReactJS to monitor employee attendance and display company events, birthdays, courses, announcements, and statistics.",
-      "Created customizable, responsive, and reusable form components used everywhere around the website.",
-      "Collaborated with designers, utilizing ion code optimization to implement user-friendly UI components and improve the overall user experience.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Worked closely with backend developers to integrate RESTful APIs",
-      "Conducted thorough code reviews, delivering actionable feedback that directly enhanced code quality and improved bug resolution speed by an average of 25% across the development team’s projects.",
-      "Worked in an agile environment and participated in sprint and daily standup meetings to enhance work efficiency and ensure project success.",
+      "Developed a fast-loading, user-friendly dashboard to track attendance and display company-wide events, announcements, and statistics, improving performance by 20%",
+      "Built reusable, responsive form components and collaborated with designers to ensure a consistent and engaging user experience across the platform.",
+      "Participated in agile sprints and daily standups, contributing innovative solutions that enhanced team efficiency and project delivery.",
+      "Actively engaged in code reviews, promoting code quality and adherence to best practices across the development team.",
+      "Tech Stack: Git, TypeScript, TailwindCSS, SCSS, ReactJS, Redux, React Router DOM, Framer Motion, React-Spring, REST API",
     ],
   },
 ];

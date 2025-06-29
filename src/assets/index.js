@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import punicaapp from "./company/punica_app.png";
+import techleara from "./Techleara.png"
 
 import carrent from "./carrent.png";
 import punica from "./punica.png";
@@ -68,5 +69,6 @@ export {
   jobit,
   tripguide,
   punica,
+  techleara,
   bookStore,
 };
